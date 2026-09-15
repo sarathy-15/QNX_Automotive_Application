@@ -1,0 +1,38 @@
+====================================================
+       AUTOMOTIVE RTOS PERFORMANCE REPORT
+====================================================
+
+TRACE INFORMATION
+-----------------
+Total records          : 53174
+START events           : 26387
+END events             : 26387
+Completed tasks        : 26387
+
+EXECUTION TIME
+--------------
+Total execution time   : 34316740039 ns
+Minimum execution time : 86148 ns
+Maximum execution time : 10000236112 ns
+Average execution time : 1300516.92 ns
+
+LATENCY
+-------
+Minimum latency        : 86148 ns
+Maximum latency        : 10000236112 ns
+Average latency        : 1300516.92 ns
+
+JITTER
+------
+Minimum jitter         : 37 ns
+Maximum jitter         : 9931493168 ns
+Average jitter         : 416822.76 ns
+
+RTOS EVENTS
+-----------
+Deadline misses        : 0
+Context switches       : 400
+
+====================================================
+                REPORT COMPLETED
+====================================================

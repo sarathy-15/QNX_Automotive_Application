@@ -1,0 +1,212 @@
+============================================================
+        AUTOMOTIVE RTOS PERFORMANCE ANALYZER
+                 PERFORMANCE REPORT
+============================================================
+
+Generated          : 2026-09-06 11:34:27
+Trace File         : rtos_trace.csv
+Trace Records      : 51,008
+Unique Task Groups : 44
+Capture Window     : 24131.142 ms
+
+------------------------------------------------------------
+SYSTEM HEALTH
+------------------------------------------------------------
+Status             : HEALTHY
+Reason             : Trace is valid and no deadline misses were recorded or calculated.
+Deadline Misses    : 0
+Deadline Checked   : 3
+
+------------------------------------------------------------
+TRACE INTEGRITY
+------------------------------------------------------------
+Valid Trace        : YES
+Integrity Reason   : Trace contains valid timestamp data with a positive capture duration.
+
+------------------------------------------------------------
+TESTBENCH COVERAGE
+------------------------------------------------------------
+Coverage           : 11/11
+Coverage Percent   : 100.00%
+
+Captured Testbenches:
+  [CAPTURED] Task Scaling
+  [CAPTURED] Priority Variation
+  [CAPTURED] Execution-Time Variation
+  [CAPTURED] Period Variation + Jitter
+  [CAPTURED] Deadline Testing
+  [CAPTURED] CPU Load Variation
+  [CAPTURED] Context-Switch Testing
+  [CAPTURED] Mixed Workload
+  [CAPTURED] Long-Duration Stability
+  [CAPTURED] Stress Testing
+  [CAPTURED] Temperature Monitoring
+
+All 11 expected testbenches are present in the trace.
+
+------------------------------------------------------------
+EXECUTION PERFORMANCE
+------------------------------------------------------------
+END Events         : 25,304
+Average Execution  : 1.345 ms
+Minimum Execution  : 0.086 ms
+Maximum Execution  : 10000.758 ms
+Total Execution    : 34023.442 ms
+
+------------------------------------------------------------
+AGGREGATE TASK LOAD
+------------------------------------------------------------
+Aggregate Execution: 34023.442 ms
+Aggregate Task Load: 140.99%
+Definition         : Sum of recorded task execution time divided by wall-clock trace duration.
+Note               : This is NOT physical CPU utilization.
+
+------------------------------------------------------------
+DEADLINE PERFORMANCE
+------------------------------------------------------------
+Explicit Miss Events: 0
+Calculated Misses   : 0
+Total Misses        : 0
+Measurements       : 3
+Deadlines Met      : 3
+Compliance         : 100.00%
+
+------------------------------------------------------------
+JITTER ANALYSIS
+------------------------------------------------------------
+Interval Samples   : 25260
+Average Interval   : 1.451 ms
+Minimum Interval   : 1.040 ms
+Maximum Interval   : 200.333 ms
+Jitter Std Dev     : 6.230 ms
+
+------------------------------------------------------------
+CONTEXT-SWITCH ACTIVITY
+------------------------------------------------------------
+Context Events     : 400
+Instrumentation    : sched_yield() testbench events
+Interpretation     : These are yield instrumentation records, not kernel-confirmed context-switch counts.
+
+------------------------------------------------------------
+TEMPERATURE MONITORING
+------------------------------------------------------------
+Temperature Samples: 0
+Temperature Data   : No TEMPERATURE events were present.
+
+------------------------------------------------------------
+EVENT SUMMARY
+------------------------------------------------------------
+CONTEXT_SWITCH      : 400
+END                 : 25,304
+START               : 25,304
+
+------------------------------------------------------------
+TESTBENCH DETAIL
+------------------------------------------------------------
+
+[CPU Load Variation]
+  Records           : 2
+  START events      : 1
+  END events        : 1
+  Deadline misses   : 0
+  Context events    : 0
+  Temperature events: 0
+
+[Context-Switch Testing]
+  Records           : 408
+  START events      : 4
+  END events        : 4
+  Deadline misses   : 0
+  Context events    : 400
+  Temperature events: 0
+
+[Deadline Testing]
+  Records           : 6
+  START events      : 3
+  END events        : 3
+  Deadline misses   : 0
+  Context events    : 0
+  Temperature events: 0
+
+[Execution-Time Variation]
+  Records           : 6
+  START events      : 3
+  END events        : 3
+  Deadline misses   : 0
+  Context events    : 0
+  Temperature events: 0
+
+[Long-Duration Stability]
+  Records           : 50412
+  START events      : 25206
+  END events        : 25206
+  Deadline misses   : 0
+  Context events    : 0
+  Temperature events: 0
+
+[Mixed Workload]
+  Records           : 6
+  START events      : 3
+  END events        : 3
+  Deadline misses   : 0
+  Context events    : 0
+  Temperature events: 0
+
+[Period Variation + Jitter]
+  Records           : 120
+  START events      : 60
+  END events        : 60
+  Deadline misses   : 0
+  Context events    : 0
+  Temperature events: 0
+
+[Priority Variation]
+  Records           : 6
+  START events      : 3
+  END events        : 3
+  Deadline misses   : 0
+  Context events    : 0
+  Temperature events: 0
+
+[Stress Testing]
+  Records           : 32
+  START events      : 16
+  END events        : 16
+  Deadline misses   : 0
+  Context events    : 0
+  Temperature events: 0
+
+[Task Scaling]
+  Records           : 8
+  START events      : 4
+  END events        : 4
+  Deadline misses   : 0
+  Context events    : 0
+  Temperature events: 0
+
+[Temperature Monitoring]
+  Records           : 2
+  START events      : 1
+  END events        : 1
+  Deadline misses   : 0
+  Context events    : 0
+  Temperature events: 0
+
+============================================================
+FINAL ANALYSIS
+============================================================
+System Health      : HEALTHY
+Trace Valid        : YES
+Deadline Misses    : 0
+Testbench Coverage : 11/11
+Context Events     : 400
+Temperature Samples: 0
+
+IMPORTANT:
+System Health is derived from actual trace validity and deadline evidence.
+Testbench coverage is reported independently and does not automatically change System Health.
+Aggregate Task Load is a trace-based execution metric and must not be interpreted as physical CPU utilization.
+
+============================================================
+                 END OF PERFORMANCE REPORT
+============================================================

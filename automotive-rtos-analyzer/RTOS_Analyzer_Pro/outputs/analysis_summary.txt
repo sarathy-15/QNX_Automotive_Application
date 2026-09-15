@@ -1,0 +1,43 @@
+AUTOMOTIVE RTOS ANALYZER
+MASTER ANALYSIS SUMMARY
+============================================================
+Generated: 2026-09-06 11:32:51
+Pipeline Version: 5.3.3
+
+SYSTEM
+Records: 51008
+Tasks: 16
+Duration (ms): 24131.142
+Execution Occupancy (%): 140.99
+System Health: HEALTHY
+
+TESTBENCH COVERAGE
+Expected: 11
+Present: 11
+Coverage: 100.00%
+
+DEADLINE
+Checked: 3
+Met: 3
+Missed: 0
+
+CONTEXT SWITCH
+Events: 400
+
+TEMPERATURE
+No temperature samples available.
+
+PRESENT TESTBENCHES
+[PASS] CPU Load Variation
+[PASS] Context-Switch Testing
+[PASS] Deadline Testing
+[PASS] Execution-Time Variation
+[PASS] Long-Duration Stability
+[PASS] Mixed Workload
+[PASS] Period Variation + Jitter
+[PASS] Priority Variation
+[PASS] Stress Testing
+[PASS] Task Scaling
+[PASS] Temperature Monitoring
+
+MISSING TESTBENCHES
